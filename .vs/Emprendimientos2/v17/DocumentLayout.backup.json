@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\Emprendimiento API\\Emprendimientos2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{88E87243-1744-4442-9027-C75EF0B426F7}|Emprendimientos2\\Emprendimientos2.csproj|d:\\archivos de programa\\proyectos c#\\proyectos backend\\emprendimiento api\\emprendimientos2\\emprendimientos2\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E87243-1744-4442-9027-C75EF0B426F7}|Emprendimientos2\\Emprendimientos2.csproj|solutionrelative:emprendimientos2\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E87243-1744-4442-9027-C75EF0B426F7}|Emprendimientos2\\Emprendimientos2.csproj|d:\\archivos de programa\\proyectos c#\\proyectos backend\\emprendimiento api\\emprendimientos2\\emprendimientos2\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E87243-1744-4442-9027-C75EF0B426F7}|Emprendimientos2\\Emprendimientos2.csproj|solutionrelative:emprendimientos2\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88E87243-1744-4442-9027-C75EF0B426F7}|Emprendimientos2\\Emprendimientos2.csproj|d:\\archivos de programa\\proyectos c#\\proyectos backend\\emprendimiento api\\emprendimientos2\\emprendimientos2\\models\\emprendimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E87243-1744-4442-9027-C75EF0B426F7}|Emprendimientos2\\Emprendimientos2.csproj|solutionrelative:emprendimientos2\\models\\emprendimiento.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Emprendimiento.cs",
+              "DocumentMoniker": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\Emprendimiento API\\Emprendimientos2\\Emprendimientos2\\Models\\Emprendimiento.cs",
+              "RelativeDocumentMoniker": "Emprendimientos2\\Models\\Emprendimiento.cs",
+              "ToolTip": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\Emprendimiento API\\Emprendimientos2\\Emprendimientos2\\Models\\Emprendimiento.cs",
+              "RelativeToolTip": "Emprendimientos2\\Models\\Emprendimiento.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T22:08:45.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\Emprendimiento API\\Emprendimientos2\\Emprendimientos2\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "Emprendimientos2\\Models\\Usuario.cs",
+              "ToolTip": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\Emprendimiento API\\Emprendimientos2\\Emprendimientos2\\Models\\Usuario.cs",
+              "RelativeToolTip": "Emprendimientos2\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T22:07:29.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuarioController.cs",
+              "DocumentMoniker": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\Emprendimiento API\\Emprendimientos2\\Emprendimientos2\\Controllers\\UsuarioController.cs",
+              "RelativeDocumentMoniker": "Emprendimientos2\\Controllers\\UsuarioController.cs",
+              "ToolTip": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\Emprendimiento API\\Emprendimientos2\\Emprendimientos2\\Controllers\\UsuarioController.cs",
+              "RelativeToolTip": "Emprendimientos2\\Controllers\\UsuarioController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwA8AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T21:48:57.148Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
