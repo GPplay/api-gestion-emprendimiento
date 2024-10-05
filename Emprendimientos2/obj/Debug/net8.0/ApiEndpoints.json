@@ -355,8 +355,8 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "usuario",
-        "Type": "Emprendimientos2.Models.Usuario",
+        "Name": "usuarioDto",
+        "Type": "Emprendimientos2.DTOs.UsuarioCreateDto",
         "IsRequired": true
       }
     ],

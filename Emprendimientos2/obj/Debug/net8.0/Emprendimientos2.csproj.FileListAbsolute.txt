@@ -250,3 +250,4 @@ D:\archivos de programa\proyectos C#\proyectos backend\Emprendimiento API\Empren
 D:\archivos de programa\proyectos C#\proyectos backend\Emprendimiento API\Emprendimientos2\Emprendimientos2\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 D:\archivos de programa\proyectos C#\proyectos backend\Emprendimiento API\Emprendimientos2\Emprendimientos2\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 D:\archivos de programa\proyectos C#\proyectos backend\Emprendimiento API\Emprendimientos2\Emprendimientos2\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+D:\archivos de programa\proyectos C#\proyectos backend\Emprendimiento API\Emprendimientos2\Emprendimientos2\obj\Debug\net8.0\Emprendimientos2.sourcelink.json

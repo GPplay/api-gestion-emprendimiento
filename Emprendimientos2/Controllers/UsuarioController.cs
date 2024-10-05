@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Emprendimientos2.Models;
+using Emprendimientos2.DTOs;
 
 namespace Emprendimientos2.Controllers
 {
@@ -75,12 +76,18 @@ namespace Emprendimientos2.Controllers
         // POST: api/Usuario
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
-        public async Task<ActionResult<Usuario>> PostUsuario(Usuario usuario)
+        public async Task<ActionResult<Usuario>> PostUsuario(UsuarioCreateDto usuarioDto)
         {
-            _context.Usuarios.Add(usuario);
+            var usaurioToCreate = new Usuario();
+
+            usaurioToCreate.Nombre = usuarioDto.Nombre;
+            usaurioToCreate.Email = usuarioDto.Email;
+            usaurioToCreate.Contrasena = usuarioDto.Contrasena;
+
+            _context.Usuarios.Add(usaurioToCreate);
             await _context.SaveChangesAsync();
 
-            return CreatedAtAction("GetUsuario", new { id = usuario.Id }, usuario);
+            return CreatedAtAction("GetUsuario", new { id = usaurioToCreate.Id }, usaurioToCreate);
         }
 
         // DELETE: api/Usuario/5
