@@ -13,8 +13,6 @@ public partial class Producto
 
     public decimal PrecioUnitario { get; set; }
 
-    public string? RutaFoto { get; set; }
-
     public int EmprendimientoId { get; set; }
 
     public decimal? CostoFabricacion { get; set; }

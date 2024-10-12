@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Emprendimientos2.Models;
 using Emprendimientos2.DTOs;
+using Emprendimientos2.Context;
 
 namespace Emprendimientos2.Controllers
 {

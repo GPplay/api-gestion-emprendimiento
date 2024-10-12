@@ -1,18 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\Emprendimiento API\\Emprendimientos2\\",
+  "WorkspaceRootPath": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\red snack gestion\\Emprendimientos2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88E87243-1744-4442-9027-C75EF0B426F7}|Emprendimientos2\\Emprendimientos2.csproj|d:\\archivos de programa\\proyectos c#\\proyectos backend\\emprendimiento api\\emprendimientos2\\emprendimientos2\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88E87243-1744-4442-9027-C75EF0B426F7}|Emprendimientos2\\Emprendimientos2.csproj|solutionrelative:emprendimientos2\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88E87243-1744-4442-9027-C75EF0B426F7}|Emprendimientos2\\Emprendimientos2.csproj|d:\\archivos de programa\\proyectos c#\\proyectos backend\\emprendimiento api\\emprendimientos2\\emprendimientos2\\dtos\\usuariocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88E87243-1744-4442-9027-C75EF0B426F7}|Emprendimientos2\\Emprendimientos2.csproj|solutionrelative:emprendimientos2\\dtos\\usuariocreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88E87243-1744-4442-9027-C75EF0B426F7}|Emprendimientos2\\Emprendimientos2.csproj|d:\\archivos de programa\\proyectos c#\\proyectos backend\\emprendimiento api\\emprendimientos2\\emprendimientos2\\dtos\\usuarioupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88E87243-1744-4442-9027-C75EF0B426F7}|Emprendimientos2\\Emprendimientos2.csproj|solutionrelative:emprendimientos2\\dtos\\usuarioupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{88E87243-1744-4442-9027-C75EF0B426F7}|Emprendimientos2\\Emprendimientos2.csproj|d:\\archivos de programa\\proyectos c#\\proyectos backend\\red snack gestion\\emprendimientos2\\emprendimientos2\\context\\gestionemprendimientocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88E87243-1744-4442-9027-C75EF0B426F7}|Emprendimientos2\\Emprendimientos2.csproj|solutionrelative:emprendimientos2\\context\\gestionemprendimientocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,41 +19,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsuarioController.cs",
-              "DocumentMoniker": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\Emprendimiento API\\Emprendimientos2\\Emprendimientos2\\Controllers\\UsuarioController.cs",
-              "RelativeDocumentMoniker": "Emprendimientos2\\Controllers\\UsuarioController.cs",
-              "ToolTip": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\Emprendimiento API\\Emprendimientos2\\Emprendimientos2\\Controllers\\UsuarioController.cs",
-              "RelativeToolTip": "Emprendimientos2\\Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAIwFUAAAAAAAAAAAAAAA==",
+              "Title": "GestionEmprendimientoContext.cs",
+              "DocumentMoniker": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\red snack gestion\\Emprendimientos2\\Emprendimientos2\\Context\\GestionEmprendimientoContext.cs",
+              "RelativeDocumentMoniker": "Emprendimientos2\\Context\\GestionEmprendimientoContext.cs",
+              "ToolTip": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\red snack gestion\\Emprendimientos2\\Emprendimientos2\\Context\\GestionEmprendimientoContext.cs",
+              "RelativeToolTip": "Emprendimientos2\\Context\\GestionEmprendimientoContext.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAA8wAkAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T17:48:52.43Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UsuarioUpdateDTO.cs",
-              "DocumentMoniker": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\Emprendimiento API\\Emprendimientos2\\Emprendimientos2\\DTOs\\UsuarioUpdateDTO.cs",
-              "RelativeDocumentMoniker": "Emprendimientos2\\DTOs\\UsuarioUpdateDTO.cs",
-              "ToolTip": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\Emprendimiento API\\Emprendimientos2\\Emprendimientos2\\DTOs\\UsuarioUpdateDTO.cs",
-              "RelativeToolTip": "Emprendimientos2\\DTOs\\UsuarioUpdateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T21:22:36.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuarioCreateDto.cs",
-              "DocumentMoniker": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\Emprendimiento API\\Emprendimientos2\\Emprendimientos2\\DTOs\\UsuarioCreateDto.cs",
-              "RelativeDocumentMoniker": "Emprendimientos2\\DTOs\\UsuarioCreateDto.cs",
-              "ToolTip": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\Emprendimiento API\\Emprendimientos2\\Emprendimientos2\\DTOs\\UsuarioCreateDto.cs",
-              "RelativeToolTip": "Emprendimientos2\\DTOs\\UsuarioCreateDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T18:29:24.212Z",
+              "WhenOpened": "2024-10-12T18:16:14.017Z",
               "EditorCaption": ""
             }
           ]

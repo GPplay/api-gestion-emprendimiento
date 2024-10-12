@@ -13,7 +13,7 @@ public partial class Usuario
 
     public string Contrasena { get; set; } = null!;
 
-    public int? EmprendimientoId { get; set; }
+    public string CodigoAcceso { get; set; } = null!;
 
-    public virtual Emprendimiento? Emprendimiento { get; set; }
+    public virtual Emprendimiento CodigoAccesoNavigation { get; set; } = null!;
 }

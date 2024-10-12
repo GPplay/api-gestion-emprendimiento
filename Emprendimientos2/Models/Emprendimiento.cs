@@ -11,6 +11,8 @@ public partial class Emprendimiento
 
     public string? Descripcion { get; set; }
 
+    public string CodigoAcceso { get; set; } = null!;
+
     public virtual ICollection<Producto> Productos { get; set; } = new List<Producto>();
 
     public virtual ICollection<TransaccionFinanciera> TransaccionFinancieras { get; set; } = new List<TransaccionFinanciera>();

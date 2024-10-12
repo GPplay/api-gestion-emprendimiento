@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\archivos de programa\\proyectos C#\\proyectos backend\\Emprendimiento API\\Emprendimientos2\\Emprendimientos2\\Emprendimientos2.csproj": {}
+    "D:\\archivos de programa\\proyectos C#\\proyectos backend\\red snack gestion\\Emprendimientos2\\Emprendimientos2\\Emprendimientos2.csproj": {}
   },
   "projects": {
-    "D:\\archivos de programa\\proyectos C#\\proyectos backend\\Emprendimiento API\\Emprendimientos2\\Emprendimientos2\\Emprendimientos2.csproj": {
+    "D:\\archivos de programa\\proyectos C#\\proyectos backend\\red snack gestion\\Emprendimientos2\\Emprendimientos2\\Emprendimientos2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\Emprendimiento API\\Emprendimientos2\\Emprendimientos2\\Emprendimientos2.csproj",
+        "projectUniqueName": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\red snack gestion\\Emprendimientos2\\Emprendimientos2\\Emprendimientos2.csproj",
         "projectName": "Emprendimientos2",
-        "projectPath": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\Emprendimiento API\\Emprendimientos2\\Emprendimientos2\\Emprendimientos2.csproj",
+        "projectPath": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\red snack gestion\\Emprendimientos2\\Emprendimientos2\\Emprendimientos2.csproj",
         "packagesPath": "C:\\Users\\Gybram\\.nuget\\packages\\",
-        "outputPath": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\Emprendimiento API\\Emprendimientos2\\Emprendimientos2\\obj\\",
+        "outputPath": "D:\\archivos de programa\\proyectos C#\\proyectos backend\\red snack gestion\\Emprendimientos2\\Emprendimientos2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Gybram\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -94,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

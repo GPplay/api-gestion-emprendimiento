@@ -1,4 +1,4 @@
-using Emprendimientos2.Models;
+using Emprendimientos2.Context;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);

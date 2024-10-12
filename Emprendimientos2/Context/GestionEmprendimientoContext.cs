@@ -1,18 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using Emprendimientos2.Models;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
 
-namespace Emprendimientos2.Models;
+namespace Emprendimientos2.Context;
 
 public partial class GestionEmprendimientoContext : DbContext
 {
-    private readonly IConfiguration _configuration;
+    public GestionEmprendimientoContext()
+    {
+    }
 
-    public GestionEmprendimientoContext(DbContextOptions<GestionEmprendimientoContext> options, IConfiguration configuration)
+    public GestionEmprendimientoContext(DbContextOptions<GestionEmprendimientoContext> options)
         : base(options)
     {
-        _configuration = configuration;
     }
 
     public virtual DbSet<Emprendimiento> Emprendimientos { get; set; }
@@ -24,12 +25,7 @@ public partial class GestionEmprendimientoContext : DbContext
     public virtual DbSet<Usuario> Usuarios { get; set; }
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-    {
-        if (!optionsBuilder.IsConfigured)
-        {
-            optionsBuilder.UseSqlServer(_configuration.GetConnectionString("DefaultConnection"));
-        }
-    }
+        => optionsBuilder.UseSqlServer("Name=Connection");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -39,7 +35,12 @@ public partial class GestionEmprendimientoContext : DbContext
 
             entity.ToTable("EMPRENDIMIENTO");
 
+            entity.HasIndex(e => e.CodigoAcceso, "UQ_emprendimiento_codigo_acceso").IsUnique();
+
             entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.CodigoAcceso)
+                .HasMaxLength(50)
+                .HasColumnName("codigo_acceso");
             entity.Property(e => e.Descripcion)
                 .HasMaxLength(500)
                 .HasColumnName("descripcion");
@@ -68,9 +69,6 @@ public partial class GestionEmprendimientoContext : DbContext
             entity.Property(e => e.PrecioUnitario)
                 .HasColumnType("decimal(10, 2)")
                 .HasColumnName("precio_unitario");
-            entity.Property(e => e.RutaFoto)
-                .HasMaxLength(255)
-                .HasColumnName("ruta_foto");
 
             entity.HasOne(d => d.Emprendimiento).WithMany(p => p.Productos)
                 .HasForeignKey(d => d.EmprendimientoId)
@@ -111,25 +109,27 @@ public partial class GestionEmprendimientoContext : DbContext
 
             entity.ToTable("usuario");
 
-            entity.HasIndex(e => e.EmprendimientoId, "IX_Usuario_EmprendimientoId");
-
             entity.HasIndex(e => e.Email, "UQ__USUARIO__AB6E61649EB75FF7").IsUnique();
 
             entity.Property(e => e.Id).HasColumnName("id");
+            entity.Property(e => e.CodigoAcceso)
+                .HasMaxLength(50)
+                .HasColumnName("codigo_acceso");
             entity.Property(e => e.Contrasena)
                 .HasMaxLength(255)
                 .HasColumnName("contrasena");
             entity.Property(e => e.Email)
                 .HasMaxLength(100)
                 .HasColumnName("email");
-            entity.Property(e => e.EmprendimientoId).HasColumnName("emprendimiento_id");
             entity.Property(e => e.Nombre)
                 .HasMaxLength(100)
                 .HasColumnName("nombre");
 
-            entity.HasOne(d => d.Emprendimiento).WithMany(p => p.Usuarios)
-                .HasForeignKey(d => d.EmprendimientoId)
-                .HasConstraintName("FK__USUARIO__emprend__5FB337D6");
+            entity.HasOne(d => d.CodigoAccesoNavigation).WithMany(p => p.Usuarios)
+                .HasPrincipalKey(p => p.CodigoAcceso)
+                .HasForeignKey(d => d.CodigoAcceso)
+                .OnDelete(DeleteBehavior.ClientSetNull)
+                .HasConstraintName("FK_usuario_emprendimiento");
         });
 
         OnModelCreatingPartial(modelBuilder);
